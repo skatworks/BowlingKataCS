@@ -19,26 +19,45 @@ namespace BowlingKataCS.Tests
             game = new Game();
         }
 
-        // すべてガターの場合
+        /// <summary>
+        /// すべてガターだった場合
+        /// </summary>
         [TestMethod()]
         public void allGutterTest()
         {
-            for (int i = 0; i < 20; i++)
-            {
-                game.roll(0);
-            }
+            rollMany(20, 0);
             Assert.AreEqual(game.score(), 0);
         }
 
-        // すべて1ピンだった場合
+        /// <summary>
+        /// すべて1ピンだった場合
+        /// </summary>
         [TestMethod()]
         public void allOneRollTest()
         {
-            for (int i = 0; i < 20; i++)
-            {
-                game.roll(1);
-            }
+            rollMany(20, 1);
             Assert.AreEqual(game.score(), 20);
+        }
+
+        /// <summary>
+        /// スペアを1回含む場合
+        /// </summary>
+        [TestMethod()]
+        public void oneSpareTest()
+        {
+            game.roll(5);
+            game.roll(5);
+            game.roll(3);
+            rollMany(17, 0);
+            Assert.AreEqual(game.score(), 16);
+        }
+
+        public void rollMany(int n, int pins)
+        {
+            for (int i = 0; i < n; i++)
+            {
+                game.roll(pins);
+            }
         }
     }
 }
