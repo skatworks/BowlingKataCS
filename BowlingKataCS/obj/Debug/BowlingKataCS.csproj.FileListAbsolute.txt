@@ -1,0 +1,6 @@
+C:\Users\satoshi\source\repos\BowlingKataCS\bin\Debug\BowlingKataCS.dll
+C:\Users\satoshi\source\repos\BowlingKataCS\bin\Debug\BowlingKataCS.pdb
+C:\Users\satoshi\source\repos\BowlingKataCS\obj\Debug\BowlingKataCS.csprojAssemblyReference.cache
+C:\Users\satoshi\source\repos\BowlingKataCS\obj\Debug\BowlingKataCS.csproj.CoreCompileInputs.cache
+C:\Users\satoshi\source\repos\BowlingKataCS\obj\Debug\BowlingKataCS.dll
+C:\Users\satoshi\source\repos\BowlingKataCS\obj\Debug\BowlingKataCS.pdb
