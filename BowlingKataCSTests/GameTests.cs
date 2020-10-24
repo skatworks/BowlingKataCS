@@ -52,6 +52,29 @@ namespace BowlingKataCS.Tests
             Assert.AreEqual(game.score(), 16);
         }
 
+        /// <summary>
+        /// ストライクを1回含む場合
+        /// </summary>
+        [TestMethod()]
+        public void oneStrikeTest()
+        {
+            game.roll(10);
+            game.roll(3);
+            game.roll(4);
+            rollMany(18, 0);
+            Assert.AreEqual(game.score(), 24);
+        }
+
+        /// <summary>
+        /// パーフェクトゲームの場合
+        /// </summary>
+        [TestMethod()]
+        public void perfectTest()
+        {
+            rollMany(12, 10);
+            Assert.AreEqual(game.score(), 300);
+        }
+
         public void rollMany(int n, int pins)
         {
             for (int i = 0; i < n; i++)
