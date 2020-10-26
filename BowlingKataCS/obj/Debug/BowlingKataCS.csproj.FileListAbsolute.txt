@@ -1,0 +1,6 @@
+D:\Users\Dev_WL4MA\source\repos\BowlingKataCS\bin\Debug\BowlingKataCS.dll
+D:\Users\Dev_WL4MA\source\repos\BowlingKataCS\bin\Debug\BowlingKataCS.pdb
+D:\Users\Dev_WL4MA\source\repos\BowlingKataCS\obj\Debug\BowlingKataCS.csprojAssemblyReference.cache
+D:\Users\Dev_WL4MA\source\repos\BowlingKataCS\obj\Debug\BowlingKataCS.csproj.CoreCompileInputs.cache
+D:\Users\Dev_WL4MA\source\repos\BowlingKataCS\obj\Debug\BowlingKataCS.dll
+D:\Users\Dev_WL4MA\source\repos\BowlingKataCS\obj\Debug\BowlingKataCS.pdb
